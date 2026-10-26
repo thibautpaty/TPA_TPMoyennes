@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+aaaaaaaaa
 namespace HNI_TPmoyennes
 {
     class Classe
@@ -11,7 +11,6 @@ namespace HNI_TPmoyennes
         public string NomClasse { get; private set; }
         public List<Eleve> Eleves { get; private set; }
         public List<string> Matieres { get; private set; }
-
 
 
         public Classe(string nomClasse)
@@ -39,7 +38,6 @@ namespace HNI_TPmoyennes
             }
             
         }
-
 
         public double? moyenneMatiere(int numeroMatiere)
         {
